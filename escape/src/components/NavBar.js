@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-class NavBar extends Component {
+class Navbar extends Component {
     render() {
         return (
-            <div>
-                HOME
-                BOOK NOW
-                ABOUT US 
-                CONTACT
+            <div className="navbar">
+                <Link to="/">HOME</Link>
+                <Link to="/reservations">BOOK</Link>
+                <Link to="/faq">F.A.Q.</Link>
+                <Link to ="/about">ABOUT</Link>
+                <Link to="/contact">CONTACT</Link>
             </div>
         );
     }
 }
 
-export default NavBar;
+export default Navbar;

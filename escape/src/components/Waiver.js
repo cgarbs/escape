@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class FAQ extends Component {
+class Waiver extends Component {
     render() {
         return (
             <div>
-                FAQ
+                Please Sign!
             </div>
         );
     }
 }
 
-export default FAQ;
+export default Waiver;
