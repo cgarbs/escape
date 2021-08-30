@@ -37,3 +37,13 @@
   color: white;
   text-decoration: none;
 }
+
+.home {
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+}
+
+.footer {
+  height: 200px;
+}

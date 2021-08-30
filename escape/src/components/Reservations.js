@@ -9,7 +9,7 @@ class Reservations extends Component {
 
     render() {
         return (
-            <div>
+            <div className="reservations">
                 Bookeo?
             </div>
         );
@@ -24,4 +24,8 @@ export default Reservations;
 // Does bookeo include comprehensive checkout system?
 
 // Original application will require:
-    // All possible reservations as booked or free
+    // Calendar system which includes all possible reservations as booked or available
+    // Live-updated record of all bookings in both front and backend
+    // Checkout system with all payment methods usable
+    // Business-side portal for employees and management
+    // Statistcal details for record-keeping, stats and relevant data
