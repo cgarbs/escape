@@ -22,6 +22,7 @@ export default Reservations;
 // MongoDB?
 // Or use bookeo?
 // Does bookeo include comprehensive checkout system?
+// *** Xola is another option for booking and checkout ***
 
 // Original application will require:
     // Calendar system which includes all possible reservations as booked or available
@@ -29,3 +30,4 @@ export default Reservations;
     // Checkout system with all payment methods usable
     // Business-side portal for employees and management
     // Statistcal details for record-keeping, stats and relevant data
+
