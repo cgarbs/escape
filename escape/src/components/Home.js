@@ -8,6 +8,8 @@ class Home extends Component {
 
     getGames = () => {
         // List of all available games as photo links
+        // Games list may come from database used for Reservations
+        
     }
 
     displayGames = () => {

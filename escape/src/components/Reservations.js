@@ -6,7 +6,6 @@ class Reservations extends Component {
         bookings: []
     }
 
-
     render() {
         return (
             <div className="reservations">
