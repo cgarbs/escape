@@ -8,7 +8,7 @@ class Waiver extends Component {
         return (
             <div>
                 Please Sign!
-                {/* Must be interactive, signable document */}
+                {/* Must be interactive, signable, submittable document */}
             </div>
         );
     }
