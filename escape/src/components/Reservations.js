@@ -6,6 +6,9 @@ class Reservations extends Component {
         bookings: []
     }
 
+    // Bookings to be based on list of games in DB
+    // Games will include title, photo, description, player limits
+
     render() {
         return (
             <div className="reservations">
