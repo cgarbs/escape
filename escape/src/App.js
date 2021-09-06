@@ -10,6 +10,7 @@ import FAQ from './components/FAQ.js'
 import Contact from './components/Contact.js'
 import About from './components/About.js'
 import Footer from './components/Footer.js'
+import Reviews from './components/Reviews.js'
 import Waiver from './components/Waiver.js'
 
 
@@ -30,6 +31,7 @@ class App extends Component {
               <Route exact path="/about" render={(props) => <About {...props} />} />
             </Switch>
               <Route exact path="/waiver" render={(props) => <Waiver {...props} />} />
+            <Reviews />
             <Footer />
         </div>
       </div>
