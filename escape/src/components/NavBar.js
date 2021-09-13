@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
+
+// Must include social media content/links
+
     render() {
         return (
             <div className="navbar">

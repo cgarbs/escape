@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 FOOTER
-                {/* To include various links */}
+                {/* To include various links, social media in particular*/}
             </div>
         );
     }
