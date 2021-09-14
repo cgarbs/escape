@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from './components/Home.js'
 import Navbar from './components/Navbar.js'
 import Reservations from './components/Reservations.js'
+import Corporate from './components/Corporate.js'
 import FAQ from './components/FAQ.js'
 import Contact from './components/Contact.js'
 import About from './components/About.js'
@@ -26,6 +27,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" render={(props) => <Home {...props} />} />
               <Route exact path="/reservations" render={(props) => <Reservations {...props} />} />
+              <Route exact path="/corporate" render={(props) => <Corporate {...props} />} />
               <Route exact path="/faq" render={(props) => <FAQ {...props} />} />
               <Route exact path="/contact" render={(props) => <Contact {...props} />} />
               <Route exact path="/about" render={(props) => <About {...props} />} />
