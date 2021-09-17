@@ -14,6 +14,7 @@ import Footer from './components/Footer.js'
 import Reviews from './components/Reviews.js'
 import Waiver from './components/Waiver.js'
 
+//APEX
 
 class App extends Component {
 
