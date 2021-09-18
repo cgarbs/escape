@@ -13,6 +13,7 @@ import About from './components/About.js'
 import Footer from './components/Footer.js'
 import Reviews from './components/Reviews.js'
 import Waiver from './components/Waiver.js'
+import Rooms from './components/Rooms.js'
 
 //APEX
 
@@ -27,6 +28,7 @@ class App extends Component {
             <Navbar />
             <Switch>
               <Route exact path="/" render={(props) => <Home {...props} />} />
+              <Route exact path="/rooms" render={(props) => <Rooms {...props} />} />
               <Route exact path="/reservations" render={(props) => <Reservations {...props} />} />
               <Route exact path="/corporate" render={(props) => <Corporate {...props} />} />
               <Route exact path="/faq" render={(props) => <FAQ {...props} />} />
