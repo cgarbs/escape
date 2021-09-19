@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-//For possible use.
+//Description of all rooms plus link to reservations.
 
 class Rooms extends Component {
     render() {

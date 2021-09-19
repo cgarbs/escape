@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Home from './components/Home.js'
 import Navbar from './components/Navbar.js'
+import Rooms from './components/Rooms.js'
 import Reservations from './components/Reservations.js'
 import Corporate from './components/Corporate.js'
 import FAQ from './components/FAQ.js'
@@ -13,7 +14,6 @@ import About from './components/About.js'
 import Footer from './components/Footer.js'
 import Reviews from './components/Reviews.js'
 import Waiver from './components/Waiver.js'
-import Rooms from './components/Rooms.js'
 
 //APEX
 
