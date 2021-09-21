@@ -13,7 +13,8 @@ class Home extends Component {
     }
 
     displayGames = () => {
-        // Display array of state games
+        // Display array of games in state (title and photo)
+        // Each as a link to Rooms page
     }
 
     render() {
