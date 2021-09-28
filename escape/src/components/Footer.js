@@ -4,11 +4,16 @@ class Footer extends Component {
     
     state = {}
 
+    // To include:
+    // Various links
+    // Contact information
+    // Address and location details
+    // Social media "Find Us"
+
     render() {
         return (
             <div className="footer">
                 FOOTER
-                {/* To include various links, social media in particular*/}
             </div>
         );
     }
