@@ -23,8 +23,9 @@ export default Reservations;
 // Create new booking/reservation system?
 // MongoDB?
 // Or use bookeo?
-// Does bookeo include comprehensive checkout system?
-// *** Xola is another option for booking and checkout ***
+// Or Xola?
+// Do either include comprehensive checkout system?
+// Do either have integration into react sites?
 
 // Original application will require:
     // Calendar system which includes all possible reservations as booked or available
