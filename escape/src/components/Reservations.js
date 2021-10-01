@@ -8,6 +8,7 @@ class Reservations extends Component {
 
     // Bookings to be based on list of games in DB
     // Games will include title, photo, description, player limits
+    // Pages will also include, alongside the brief summary, reviews, room media and group photos (completed games)
 
     render() {
         return (
