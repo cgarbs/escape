@@ -9,6 +9,7 @@ class Footer extends Component {
     // Contact information
     // Address and location details
     // Social media "Find Us"
+    // Location will include Google Map data and link to map/directions
 
     render() {
         return (
