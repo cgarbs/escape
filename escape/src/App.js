@@ -16,6 +16,7 @@ import Reviews from './components/Reviews.js'
 import Waiver from './components/Waiver.js'
 
 //MERGE BOOKING.JS FROM 'BOOKING' (LAPTOP)
+//(separate booking software to be implemented? or final product to be all encompassing?)
 
 class App extends Component {
 
